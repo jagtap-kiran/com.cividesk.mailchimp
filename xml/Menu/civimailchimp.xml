@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<menu>
+  <item>
+     <path>civicrm/civimailchimp</path>
+     <page_callback>CMC_Page_Mailchimp_Setting</page_callback>
+     <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+  <item>
+     <path>civicrm/civimailchimp/run</path>
+     <page_callback>CMC_Page_Mailchimp_Run</page_callback>
+     <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+  <item>
+     <path>civicrm/civimailchimp/setting/add</path>
+     <page_callback>CMC_Form_Mailchimp_Setting</page_callback>
+     <page_arguments>mode=1</page_arguments>
+     <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+  <item>
+     <path>civicrm/civimailchimp/setting/edit</path>
+     <page_callback>CMC_Form_Mailchimp_Setting</page_callback>
+     <page_arguments>mode=2</page_arguments>
+     <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+  <item>
+     <path>civicrm/civimailchimp/setting/delete</path>
+     <page_callback>CMC_Form_Mailchimp_Setting</page_callback>
+     <page_arguments>mode=8</page_arguments>
+     <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+  <item>
+     <path>civicrm/civimailchimp/setting/view</path>
+     <page_callback>CMC_Form_Mailchimp_Setting</page_callback>
+     <page_arguments>mode=4</page_arguments>
+     <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+</menu>

@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS `civicrm_mailchimp_account`;
+DROP TABLE IF EXISTS `civicrm_mailchimp_sync_log`;
+DROP TABLE IF EXISTS `civicrm_mailchimp_sync_log_contacts`;
+DROP TABLE IF EXISTS `civicrm_mailchimp_sync_log_contacts_added`;
+DROP TABLE IF EXISTS `civicrm_mailchimp_sync_log_contacts_removed`;
+DROP TABLE IF EXISTS `civicrm_mailchimp_sync_log_groups`;
+DROP TABLE IF EXISTS `civicrm_mailchimp_sync_log_groups_added`;
+DROP TABLE IF EXISTS `civicrm_mailchimp_sync_log_removes`;
+DROP TABLE IF EXISTS `civicrm_mailchimp_sync_log_runkey`;

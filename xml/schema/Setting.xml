@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<table>
+  <base>CMC</base>
+  <class>Setting</class>
+  <name>civicrm_mailchimp_setting</name>
+  <comment>Setting File</comment>
+  <add>4.2</add>
+  <field>
+      <name>id</name>
+      <type>int unsigned</type>
+      <required>true</required>
+      <comment>Discount Item ID</comment>
+       <add>4.1</add>
+  </field>
+  <primaryKey>
+       <name>id</name>
+       <autoincrement>true</autoincrement>
+  </primaryKey>
+  <field>
+       <name>base_url</name>
+       <type>text</type>
+       <required>false</required>
+       <comment>Base Url</comment>
+       <add>4.2</add>
+  </field>
+  <field>
+       <name>api_key</name>
+       <type>text</type>
+       <required>true</required>
+       <comment>mailchimp api key</comment>
+       <add>4.2</add>
+  </field>
+  <field>
+       <name>list_id</name>
+       <type>varchar</type>
+       <length>255</length>
+       <required>true</required>
+       <comment>List ID</comment>
+       <add>4.2</add>
+  </field>
+  <field>
+       <name>is_active</name>
+       <type>boolean</type>
+       <comment>Is this setting active?</comment>
+       <add>4.2</add>
+  </field>
+</table>

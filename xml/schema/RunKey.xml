@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<table>
+  <base>CMC</base>
+  <class>Runkey</class>
+  <name>civicrm_mailchimp_sync_log_runkey</name>
+  <comment>Account File</comment>
+  <add>4.2</add>
+  <field>
+      <name>id</name>
+      <type>int unsigned</type>
+      <required>true</required>
+      <comment>Run Key ID</comment>
+       <add>4.2</add>
+  </field>
+  <primaryKey>
+       <name>id</name>
+       <autoincrement>true</autoincrement>
+  </primaryKey>
+  <field>
+       <name>runkey</name>
+       <type>text</type>
+       <required>false</required>
+       <comment>Run Key</comment>
+       <add>4.2</add>
+  </field>
+  <field>
+       <name>runtime</name>
+       <type>date</type>
+       <required>false</required>
+       <comment>mailchimp sync date</comment>
+       <add>4.2</add>
+  </field>
+  <field>
+       <name>webhook_added</name>
+       <type>boolean</type>
+       <comment>Is this discount active?</comment>
+       <add>4.1</add>
+  </field>
+</table>
